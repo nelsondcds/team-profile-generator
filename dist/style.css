@@ -1,0 +1,25 @@
+header {
+    color: white;
+    background-color: #ff5747;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 60px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.head {
+    color: white;
+    background-color: #477eff;
+}
