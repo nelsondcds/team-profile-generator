@@ -35,8 +35,8 @@ const generateHTML = data => {
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><p class="card-text">ID: ${data.manager.getId()}</p></li>
-                            <li class="list-group-item"><p class="card-text">Email: </p><a href="mailto:${data.manager.getEmail()}" class="card-link">${data.manager.getEmail()}</a></li>
-                            <li class="list-group-item"><p class="card-text">Phone: </p><a href="tel:${data.manager.getOfficeNumber()}" class="card-link">${data.manager.getOfficeNumber()}</a></li>
+                            <li class="list-group-item"><p class="card-text">Email: <a href="mailto:${data.manager.getEmail()}" class="card-link">${data.manager.getEmail()}</a></p></li>
+                            <li class="list-group-item"><p class="card-text">Phone: <a href="tel:${data.manager.getOfficeNumber()}" class="card-link">${data.manager.getOfficeNumber()}</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ const generateHTML = data => {
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><p class="card-text">ID: ${data.engineers[i].getId()}</p></li>
-                            <li class="list-group-item"><p class="card-text">Email: </p><a href="mailto:${data.engineers[i].getEmail()}" class="card-link">${data.engineers[i].getEmail()}</a></li>
-                            <li class="list-group-item"><p class="card-text">GitHub: </p><a href="https://github.com/${data.engineers[i].getGithub()}" class="card-link">${data.engineers[i].getGithub()}</a></li>
+                            <li class="list-group-item"><p class="card-text">Email: <a href="mailto:${data.engineers[i].getEmail()}" class="card-link">${data.engineers[i].getEmail()}</a></p></li>
+                            <li class="list-group-item"><p class="card-text">GitHub: <a href="https://github.com/${data.engineers[i].getGithub()}" class="card-link">${data.engineers[i].getGithub()}</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const generateHTML = data => {
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><p class="card-text">ID: ${data.interns[i].getId()}</p></li>
-                            <li class="list-group-item"><p class="card-text">Email: </p><a href="mailto:${data.interns[i].getEmail()}" class="card-link">${data.interns[i].getEmail()}</a></li>
+                            <li class="list-group-item"><p class="card-text">Email: <a href="mailto:${data.interns[i].getEmail()}" class="card-link">${data.interns[i].getEmail()}</a></p></li>
                             <li class="list-group-item"><p class="card-text">School: ${data.interns[i].getSchool()}</p></li>
                         </ul>
                     </div>
